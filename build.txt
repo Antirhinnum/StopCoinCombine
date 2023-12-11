@@ -1,0 +1,3 @@
+displayName = Stop Coins Combining
+author = Snek
+version = 0.1
