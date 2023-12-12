@@ -1,3 +1,5 @@
 Forces coins to no longer combine after a certain tier if you have the Coin Gun (or any other weapon that uses coins as ammo).
 By default, Silver Coins and higher won't combine. The tier is configurable. You can also force this behavior even if you don't have the Coin Gun. If you don't want the behavior at all, you can also disable the mod entirely from the config.
 Client-side.
+
+[url=https://github.com/Antirhinnum/StopCoinCombine]Source on GitHub[/url]

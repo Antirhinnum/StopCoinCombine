@@ -1,8 +1,12 @@
+using StopCoinCombine.Common;
 using Terraria.ModLoader;
 
-namespace StopCoinCombine
+namespace StopCoinCombine;
+
+public sealed class StopCoinCombine : Mod
 {
-	public class StopCoinCombine : Mod
+	public override object Call(params object[] args)
 	{
+		return CallSystem.Call(args);
 	}
 }

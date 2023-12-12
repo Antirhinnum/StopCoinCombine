@@ -1,1 +1,31 @@
-# This file will automatically update with entries for new content after a build and reload
+Configs: {
+	CoinCombiningConfig: {
+		DisplayName: Coin Combining Config
+
+		ModEnabled: {
+			Label: "[i:Lever] Mod Enabled"
+			Tooltip: If off, then this mod will not function.
+		}
+
+		HighestCoinTypeToKeep: {
+			Label: "[i:LuckyCoin] Highest Coin Type to Keep"
+			Tooltip:
+				'''
+				The highest value of coin to combine up to.
+				For example, setting this to Silver means that you will not automatically consolidate Silver Coins or higher.
+				'''
+		}
+
+		OnlyKeepSeparateWhenUsingCoins: {
+			Label: "[i:CoinGun] Only Keep Separate When Using Coins"
+			Tooltip: If on, coins will only be kept separate if an item that uses coins is in the player's inventory.
+		}
+	}
+
+	CoinType: {
+		Tooltip: ""
+		Copper.Label: Copper
+		Silver.Label: Silver
+		Gold.Label: Gold
+	}
+}

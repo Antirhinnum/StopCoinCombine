@@ -1,3 +1,6 @@
 displayName = Stop Coins Combining
 author = Snek
-version = 0.1
+version = 1.0.0
+homepage = https://github.com/Antirhinnum/StopCoinCombine
+buildIgnore = *.pdn, README.md, LICENSE
+side = Client
